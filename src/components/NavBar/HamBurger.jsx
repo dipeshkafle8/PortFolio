@@ -1,21 +1,31 @@
 import hamburger from "../assets/hamburger.svg";
+import { useRef } from "react";
 function HamBurger() {
-  function displayList() {}
+  const navList = useRef();
+  function displayNavList() {
+    console.log(navList);
+    navList.current.classList.toggle("yesDisplay");
+    console.log(navList.current);
+  }
   return (
     <>
-      <img className="w-12 lg:hidden" src={hamburger} onClick={displayList} />
-      <ul className="md:hidden hidden">
+      <img
+        className="w-12 lg:hidden cursor-pointer"
+        src={hamburger}
+        onClick={displayNavList}
+      />
+      <ul ref={navList} className="noDisplay">
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="#">Projects</a>
+          <a href="/projects">Projects</a>
         </li>
         <li>
-          <a href="#">Skills</a>
+          <a href="/skills">Skills</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
     </>

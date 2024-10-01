@@ -6,11 +6,11 @@ export default {
       keyframes: {
         typing: {
           "0%": {
-            width: "0ch",
+            // width: "0ch",
             visibility: "hidden",
           },
           "90%": {
-            width: "10ch",
+            // width: "10ch",
           },
         },
         blink: {
