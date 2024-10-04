@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "desc": "A personal portfolio website to showcase my projects and skills.",
+    "technology": ["React", "Tailwind CSS", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "title": "E-commerce Platform",
+    "desc": "An online platform for buying and selling products.",
+    "technology": ["Node.js", "Express", "MongoDB", "React"]
+  },
+  {
+    "id": 3,
+    "title": "Chat Application",
+    "desc": "A real-time chat application with user authentication.",
+    "technology": ["Socket.io", "Node.js", "Express", "React"]
+  },
+  {
+    "id": 4,
+    "title": "Blog Website",
+    "desc": "A blogging platform where users can create and share posts.",
+    "technology": ["Gatsby", "GraphQL", "Markdown"]
+  },
+  {
+    "id": 5,
+    "title": "Task Manager",
+    "desc": "A task management application to track and organize tasks.",
+    "technology": ["Vue.js", "Vuex", "Firebase"]
+  },
+  {
+    "id": 6,
+    "title": "Weather App",
+    "desc": "A weather forecasting application using a public API.",
+    "technology": ["React", "OpenWeatherMap API", "CSS"]
+  },
+  {
+    "id": 7,
+    "title": "Expense Tracker",
+    "desc": "An application to track and manage personal expenses.",
+    "technology": ["Angular", "TypeScript", "Firebase"]
+  },
+  {
+    "id": 8,
+    "title": "Recipe App",
+    "desc": "A recipe application where users can find and share recipes.",
+    "technology": ["React Native", "Redux", "Firebase"]
+  },
+  {
+    "id": 9,
+    "title": "Fitness Tracker",
+    "desc": "An application to track fitness activities and goals.",
+    "technology": ["Flutter", "Dart", "Firebase"]
+  },
+  {
+    "id": 10,
+    "title": "Online Learning Platform",
+    "desc": "A platform for online courses and learning resources.",
+    "technology": ["Django", "React", "PostgreSQL"]
+  }
+]

@@ -2,7 +2,7 @@ import HamBurger from "./HamBurger";
 function NavBar() {
   return (
     <>
-      <nav className="top-0 left-0 w-full h-16 bg-[rgb(4,30,53)] text-white flex justify-between items-center fixed lg:h-24">
+      <nav className="top-0 left-0 w-full h-16 bg-[rgb(4,30,53)] text-white flex justify-between items-center fixed z-50 lg:h-24">
         <a href="/">
           <div className="name ml-4">
             <span className="text-3xl font-serif font-extrabold italic tracking-wider">
