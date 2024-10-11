@@ -2,7 +2,7 @@ import aboutpic from "../assets/aboutpic.jpg";
 function About() {
   return (
     <>
-      <div className="bg-[rgb(5,48,88)]  border-1 rounded-lg m-4 lg:mt-44 xl:mt-32">
+      <div className="bg-[rgb(21,16,48)]  border-1 rounded-lg m-4 lg:mt-44 xl:mt-32">
         <div className="flex  flex-col gap-y-4 items-center text-white  lg:flex-row lg:justify-between lg:gap-x-8 ">
           <div className=" border-4  border-[rgb(7,35,60)] w-[16rem] rounded-3xl overflow-hidden mt-4 lg:ml-12 lg:mt-[-2rem] lg:w-[20rem]">
             <img
@@ -23,45 +23,47 @@ function About() {
               building full-stack web applications and tackling complex
               challenges. Outside of coding, I love dancing and watching movies.
             </p>
-            <table className="flex flex-col gap-y-4 mr-auto">
-              <tbody>
-                <tr>
-                  <td className="pr-12 text-[#c1bdbd]">Name</td>
-                  <td className="pr-4">:</td>
-                  <td>Dipesh Kafle</td>
-                </tr>
-                <tr>
-                  <td className="pr-12 text-[#c1bdbd]">Nationality</td>
-                  <td className="pr-4">:</td>
-                  <td>Nepali</td>
-                </tr>
-                <tr>
-                  <td className="pr-12 text-[#c1bdbd]">Phone No</td>
-                  <td className="pr-4">:</td>
-                  <td>(+91) 9317128221</td>
-                </tr>
-                <tr>
-                  <td className="pr-12 text-[#c1bdbd]">Email</td>
-                  <td className="pr-4">:</td>
-                  <td>abc@gmail.com</td>
-                </tr>
-                <tr>
-                  <td className="pr-12 text-[#c1bdbd]">Language</td>
-                  <td className="pr-4">:</td>
-                  <td> Nepali, English , Hindi</td>
-                </tr>
-                <tr>
-                  <td className="pr-12 text-[#c1bdbd]">Freelance</td>
-                  <td className="pr-8">:</td>
-                  <td>Available</td>
-                </tr>
-                <tr>
-                  <td className="pr-12 text-[#c1bdbd]">Hobbies</td>
-                  <td className="pr-4">:</td>
-                  <td> Dacing, Watching movies etc.</td>
-                </tr>
-              </tbody>
-            </table>
+            <div className="px-4">
+              <table className="flex flex-col gap-y-4 mr-auto">
+                <tbody>
+                  <tr>
+                    <td className="pr-12 text-[#c1bdbd]">Name</td>
+                    <td className="pr-4">:</td>
+                    <td>Dipesh Kafle</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-12 text-[#c1bdbd]">Nationality</td>
+                    <td className="pr-4">:</td>
+                    <td>Nepali</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-12 text-[#c1bdbd]">Phone No</td>
+                    <td className="pr-4">:</td>
+                    <td>(+91) 9317128221</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-12 text-[#c1bdbd]">Email</td>
+                    <td className="pr-4">:</td>
+                    <td>abc@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-12 text-[#c1bdbd]">Language</td>
+                    <td className="pr-4">:</td>
+                    <td> Nepali, English , Hindi</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-12 text-[#c1bdbd]">Freelance</td>
+                    <td className="pr-8">:</td>
+                    <td>Available</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-12 text-[#c1bdbd]">Hobbies</td>
+                    <td className="pr-4">:</td>
+                    <td> Dacing, Watching movies etc.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>

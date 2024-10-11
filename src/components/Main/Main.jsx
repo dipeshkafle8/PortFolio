@@ -7,7 +7,7 @@ function Main() {
   return (
     <>
       <div className="flex flex-col-reverse items-center justify-center gap-y-6 mt-28 lg:flex-row lg:mt-44 lg:justify-between">
-        <div className="lg:block lg:ml-[17%] xl:ml-[15%]">
+        <div className=" md:w-[30rem] lg:block lg:w-[38rem] lg:ml-[14%] xl:ml-[15%]">
           <DisplayText />
           <DisplayIconsAndText />
         </div>

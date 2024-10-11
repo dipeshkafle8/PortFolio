@@ -11,7 +11,7 @@ function HamBurger() {
   return (
     <>
       <img
-        className="w-12 lg:hidden cursor-pointer"
+        className="w-12 mr-4 lg:hidden cursor-pointer"
         src={hamburger}
         onClick={displayNavList}
       />

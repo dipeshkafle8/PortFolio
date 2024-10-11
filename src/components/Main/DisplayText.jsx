@@ -1,7 +1,8 @@
+import Typewriter from "typewriter-effect";
 function DisplayText() {
   return (
     <>
-      <div className="designed-text">
+      <div className="designed-text ">
         <h6 className="name-inSmall  text-center lg:text-left m-5">
           <span className="text-[#ffffff98] bg-[rgb(6,53,97)] tracking-wide p-2 lg:text-[1rem]">
             DIPESH KAFLE
@@ -16,10 +17,22 @@ function DisplayText() {
 
         {/* animated text */}
         <h1
-          className="animate-typing overflow-hidden inline-block
-        whitespace-nowrap border-r-4 border-r-[rgb(7,136,255)]  text-[rgb(7,136,255)] font-bold text-4xl md:text-5xl m-4 lg:text-[3.5rem] lg:leading-[1] xl:text-6xl"
+          className="overflow-hidden inline-block
+        whitespace-nowrap   text-[rgb(7,136,255)] font-bold text-4xl md:text-5xl m-4 lg:text-[3.5rem]  xl:text-6xl"
         >
-          I am a Developer
+          <Typewriter
+            options={{
+              strings: [
+                " I am a Developer",
+                "I am a Designer",
+                "I am a Creator",
+              ],
+              autoStart: true,
+              loop: true,
+              delay: 50,
+              deleteSpeed: 50,
+            }}
+          />
         </h1>
       </div>
     </>
