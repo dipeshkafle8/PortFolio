@@ -43,10 +43,10 @@ function Contact() {
   return (
     <>
       <div className="flex  flex-col mt-16 mb-4 items-center rounded-3xl overflow-hidden lg:mt-[7rem] lg:flex-row lg:justify-center">
-        <div className="  w-[35%] text-3xl bg-[rgb(2,179,210)]  text-white flex justify-center items-center md:text-4xl font-bold rounded-t-lg lg:h-[38rem] lg:rounded-l-lg lg:rounded-none lg:w-[35%]">
+        <div className="  sm:w-[35%] text-3xl bg-[rgb(2,179,210)]  text-white flex justify-center items-center md:text-4xl font-bold rounded-t-lg lg:h-[38rem] lg:rounded-l-lg lg:rounded-none lg:w-[35%]">
           Let&apos;s Chat !!
         </div>
-        <div className=" w-[60%] pl-8 pt-6 h-[38rem] bg-white  pr-4 pb-0 rounded-r-lg lg:w-[40%]">
+        <div className="w-[90%] sm:w-[60%] pl-4 pt-6 h-[38rem] bg-white  pr-4 pb-0 rounded-lg lg:rounded-none lg:rounded-r-lg lg:w-[40%]">
           <form
             className="space-y-4"
             onSubmit={(e) => {
@@ -66,7 +66,7 @@ function Contact() {
                 placeholder="Enter your Name"
                 id="name"
                 name="name"
-                className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-[80%] py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                className="w-[100%] bg-gray-200 appearance-none border-2 border-gray-200 rounded sm:w-[80%] py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                 required
               />
             </div>
@@ -82,7 +82,7 @@ function Contact() {
                 id="email"
                 name="email"
                 placeholder="abc@gmail.com"
-                className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-[80%] py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                className="w-[100%] bg-gray-200 appearance-none border-2 border-gray-200 rounded sm:w-[80%] py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                 required
               />
             </div>
@@ -98,7 +98,7 @@ function Contact() {
                 id="subject"
                 name="subject"
                 placeholder=" Enter subject"
-                className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-[80%] py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                className="w-[100%] bg-gray-200 appearance-none border-2 border-gray-200 rounded sm:w-[80%] py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                 required
               />
             </div>
