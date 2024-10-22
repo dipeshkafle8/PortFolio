@@ -18,7 +18,7 @@ function Projects() {
             ? ProjectsData.map((project) => (
                 <div
                   key={project.id}
-                  className="bg-gray-200 m-4 p-4 rounded-lg w-[25rem] transition-shadow duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+                  className="bg-[rgb(32,57,80)] m-4 p-4 rounded-lg w-[25rem] transition-shadow duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
                 >
                   <div className="w-full relative mx-auto h-auto overflow-hidden rounded-lg hover:cursor-pointer">
                     <img
@@ -27,22 +27,19 @@ function Projects() {
                       alt={project.title}
                     />
                   </div>
-                  <h3 className="text-xl font-bold text-black mt-4 mb-2">
+                  <h3 className="text-xl font-bold  mt-4 mb-2">
                     {project.title}
                   </h3>
-                  <p className="text-black">
-                    Website for Student to help them find suitable college
-                    according to their choice!.
-                  </p>
+                  <p>{project.desc}</p>
                   <div className="ml-32 mt-2">
                     <a
                       href="#"
                       target="_blank"
-                      className="bg-blue-600 px-6 py-2 justify-end rounded-lg m-2"
+                      className="bg-[rgb(4,30,53)] px-6 py-2 justify-end rounded-lg m-2 hover:bg-[rgb(8,15,22)] hover:px-[1.54rem] hover:py-[0.52rem]"
                     >
                       Github
                     </a>
-                    <button className="bg-blue-600  px-6 py-[0.30rem] rounded-lg">
+                    <button className="bg-[rgb(4,30,53)]  px-6 py-[0.30rem] rounded-lg hover:bg-[rgb(8,15,22)] hover:px-[1.54rem] hover:py-[0.32rem]">
                       Details
                     </button>
                   </div>

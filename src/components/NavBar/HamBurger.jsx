@@ -10,7 +10,7 @@ function HamBurger() {
   }
   return (
     <>
-      <div className="mr-4 lg:hidden">
+      <div className="pr-4 lg:hidden">
         <img
           className="w-12  lg:hidden cursor-pointer"
           src={hamburger}

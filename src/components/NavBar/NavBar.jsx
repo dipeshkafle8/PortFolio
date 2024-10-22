@@ -5,7 +5,7 @@ function NavBar() {
     <>
       <nav className="top-0 left-0  fixed w-full h-16 bg-[rgb(4,30,53)] text-white flex justify-between items-center  z-50 lg:h-24">
         <Link to="/">
-          <div className="name ml-4">
+          <div className="name pl-4">
             <span className="text-3xl font-serif font-extrabold italic tracking-wider">
               {" "}
               <span className="text-4xl text-[rgb(7,136,255)]">D</span>
