@@ -2,7 +2,7 @@ import aboutpic from "../assets/aboutpic.jpg";
 function About() {
   return (
     <>
-      <div className="bg-[rgb(21,16,48)]  rounded-lg my-4  lg:mt-44 xl:mt-32">
+      <div className="bg-[rgb(5,42,75)] mx-2 rounded-lg my-4  lg:mt-44 xl:mt-32">
         <div className="flex flex-col gap-y-4 items-center text-white  lg:flex-row lg:justify-between lg:gap-x-8 ">
           <div className=" border-4  border-[rgb(7,35,60)] sm:w-[16rem] rounded-3xl overflow-hidden mt-4 lg:ml-12 lg:mt-[-2rem] lg:w-[20rem]">
             <img

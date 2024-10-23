@@ -1,9 +1,27 @@
 import ProjectsData from "./Data/Projects.json";
-import StudentSathiPic from "./assets/StudentSathi.png";
-import { useRef } from "react";
+import StudentSathi from "./assets/StudentSathi.png";
+import { useRef, useState } from "react";
+import DesignModal from "./DesignModal";
+
+const images = {
+  StudentSathi: StudentSathi,
+};
+
 function Projects() {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
   const projectContainerRef = useRef(null);
-  console.log(ProjectsData);
+
+  const handleOpenModal = (project) => {
+    setShowModal(true);
+    setSelectedProject(project);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+    setSelectedProject(null);
+  };
+
   return (
     <>
       <div className="mt-12 pt-4  text-white flex flex-col justify-center items-center lg:mt-20 lg:pt-8">
@@ -14,7 +32,7 @@ function Projects() {
           ref={projectContainerRef}
           className="flex flex-wrap flex-1 justify-evenly"
         >
-          {ProjectsData.length != 0
+          {ProjectsData.length !== 0
             ? ProjectsData.map((project) => (
                 <div
                   key={project.id}
@@ -22,7 +40,7 @@ function Projects() {
                 >
                   <div className="w-full relative mx-auto h-auto overflow-hidden rounded-lg hover:cursor-pointer">
                     <img
-                      src={StudentSathiPic}
+                      src={images[project.image]}
                       className="w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110 "
                       alt={project.title}
                     />
@@ -30,7 +48,7 @@ function Projects() {
                   <h3 className="text-xl font-bold  mt-4 mb-2">
                     {project.title}
                   </h3>
-                  <p>{project.desc}</p>
+                  <p>{project.short_desc}</p>
                   <div className="ml-32 mt-2">
                     <a
                       href="#"
@@ -39,7 +57,10 @@ function Projects() {
                     >
                       Github
                     </a>
-                    <button className="bg-[rgb(4,30,53)]  px-6 py-[0.30rem] rounded-lg hover:bg-[rgb(8,15,22)] hover:px-[1.54rem] hover:py-[0.32rem]">
+                    <button
+                      onClick={() => handleOpenModal(project)}
+                      className="bg-[rgb(4,30,53)]  px-6 py-[0.30rem] rounded-lg hover:bg-[rgb(8,15,22)] hover:px-[1.54rem] hover:py-[0.32rem]"
+                    >
                       Details
                     </button>
                   </div>
@@ -48,6 +69,9 @@ function Projects() {
             : null}
         </div>
       </div>
+      {showModal ? (
+        <DesignModal handleClose={handleCloseModal} project={selectedProject} />
+      ) : null}
     </>
   );
 }
