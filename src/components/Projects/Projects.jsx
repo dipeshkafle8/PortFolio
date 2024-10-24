@@ -24,7 +24,7 @@ function Projects() {
 
   return (
     <>
-      <div className="mt-12 pt-4  text-white flex flex-col justify-center items-center lg:mt-20 lg:pt-8">
+      <div className="mt-14 pt-4  text-white flex flex-col justify-center items-center lg:mt-20 lg:pt-8">
         <div>
           <span className="text-3xl font-bold">RECENT PROJECTS</span>
         </div>
