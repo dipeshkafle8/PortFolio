@@ -36,7 +36,7 @@ function Projects() {
             ? ProjectsData.map((project) => (
                 <div
                   key={project.id}
-                  className="bg-[rgb(32,57,80)] m-4 p-4 rounded-lg w-[25rem] transition-shadow duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+                  className="bg-[rgb(32,57,80)] m-4 p-4 rounded-lg md:w-[25rem] transition-shadow duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
                 >
                   <div className="w-full relative mx-auto h-auto overflow-hidden rounded-lg hover:cursor-pointer">
                     <img
@@ -49,7 +49,7 @@ function Projects() {
                     {project.title}
                   </h3>
                   <p>{project.short_desc}</p>
-                  <div className="ml-32 mt-2">
+                  <div className="sm:ml-32 mt-2">
                     <a
                       href="#"
                       target="_blank"

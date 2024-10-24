@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Portfolio Website",
     "short_desc": "A personal portfolio website to showcase my projects and skills.",
-    "desc": "This is a personal porfolio website ",
+    "desc": "This is a personal portfolio website designed to showcase my projects, skills, and experiences. It includes sections for my bio, projects, and contact information.",
     "technology": ["React", "Tailwind CSS", "JavaScript"],
     "image": "StudentSathi"
   },
@@ -11,6 +11,7 @@
     "id": 2,
     "title": "E-commerce Platform",
     "short_desc": "An online platform for buying and selling products.",
+    "desc": "This is a personal portfolio website designed to showcase my projects, skills, and experiences. It includes sections for my bio, projects, and contact information.",
     "technology": ["Node.js", "Express", "MongoDB", "React"],
     "image": "StudentSathi"
   },
