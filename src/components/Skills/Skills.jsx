@@ -1,7 +1,14 @@
 function Skills() {
   return (
     <>
-      <h1 className="mt-24 text-white">Skills page is loading.....</h1>
+      <div className="mt-32">
+        <div>
+          <h1 className="text-white text-center text-3xl font-semibold">
+            My Skills
+          </h1>
+        </div>
+        <div></div>
+      </div>
     </>
   );
 }

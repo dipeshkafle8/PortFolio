@@ -17,3 +17,11 @@ body {
 .yesDisplay li {
   @apply m-2;
 }
+.name-hover:hover .text-4xl {
+  color: white;
+  font-size: 3xl;
+}
+
+.name-hover:hover span:not(.text-4xl) {
+  color: rgb(7, 136, 255);
+}
