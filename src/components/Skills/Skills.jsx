@@ -1,3 +1,8 @@
+import Programming from "./Programming";
+import FrontEnd from "./FrontEnd";
+import BackEnd from "./BackEnd";
+import Tools from "./Developer";
+
 function Skills() {
   return (
     <>
@@ -7,7 +12,12 @@ function Skills() {
             My Skills
           </h1>
         </div>
-        <div></div>
+        <div className="text-white">
+          <Programming />
+          <FrontEnd />
+          <BackEnd />
+          <Tools />
+        </div>
       </div>
     </>
   );
