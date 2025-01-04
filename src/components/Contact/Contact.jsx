@@ -43,10 +43,10 @@ function Contact() {
   return (
     <>
       <div className="flex  flex-col mt-16 mb-4 items-center rounded-3xl overflow-hidden lg:mt-[7rem] lg:flex-row lg:justify-center">
-        <div className="  sm:w-[35%] text-3xl bg-[rgb(32,57,80)]  text-white flex justify-center items-center md:text-4xl font-bold rounded-t-lg lg:h-[38rem]  border-l-2 border-y-2 border-blue-500 border-dotted lg:rounded-l-lg lg:rounded-none lg:w-[35%]">
+        <div className="  sm:w-[35%] text-3xl bg-[#2d2c2c]  text-white flex justify-center items-center md:text-4xl font-bold rounded-t-lg lg:h-[38rem]    lg:rounded-l-lg lg:rounded-none lg:w-[35%]">
           Let&apos;s Chat !!
         </div>
-        <div className="w-[90%] sm:w-[60%] pl-4 pt-6 h-[38rem] bg-[rgb(11,44,75)]  pr-4 pb-0 rounded-lg border-2  border-blue-500 border-dotted lg:rounded-none lg:rounded-r-lg lg:w-[40%]">
+        <div className="w-[90%] sm:w-[60%] pl-4 pt-6 h-[38rem] bg-[#242323]  pr-4 pb-0 rounded-lg   lg:rounded-none lg:rounded-r-lg lg:w-[40%]">
           <form
             className="space-y-4"
             onSubmit={(e) => {

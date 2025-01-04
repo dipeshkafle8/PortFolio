@@ -2,9 +2,9 @@ import aboutpic from "../assets/aboutpic.jpg";
 function About() {
   return (
     <>
-      <div className="bg-[rgb(5,42,75)] mx-2 rounded-lg my-4  lg:mt-44 xl:mt-32">
+      <div className=" bg-[#1B1B1B]  rounded-lg my-4 md:mx-2 lg:mt-44 xl:mt-32">
         <div className="flex flex-col gap-y-4 items-center text-white  lg:flex-row lg:justify-between lg:gap-x-8 ">
-          <div className=" border-4  border-[rgb(7,35,60)] sm:w-[16rem] rounded-3xl overflow-hidden mt-4 lg:ml-12 lg:mt-[-2rem] lg:w-[20rem]">
+          <div className=" border-4  border-[rgb(14,49,50)] sm:w-[16rem] rounded-3xl overflow-hidden mt-4 lg:ml-12 lg:mt-[-2rem] lg:w-[20rem]">
             <img
               src={aboutpic}
               className=" w-[14rem] sm:w-[18rem] lg:w-[20rem]"
@@ -12,10 +12,10 @@ function About() {
             />
           </div>
           <div className=" flex flex-col items-center text-xl w-[100%] m-2 ml-14  gap-y-4 lg:items-start lg:w-[60%] lg:mr-12 lg:mt-4">
-            <span className="text-3xl md:text-5xl font-bold  mr-6 lg:text-left">
+            <span className="text-2xl md:text-5xl font-bold  mr-6 lg:text-left">
               About Me!
             </span>
-            <p className="md:text-1xl mr-4 text-justify pr-4 text-[#c1bdbd]">
+            <p className=" text-lg mr-4 text-justify pr-4 text-[#c1bdbd] md:text-xl">
               My name is{" "}
               <span className="text-white font-bold">Dipesh Kafle</span>, a MERN
               stack developer and problem-solver currently pursuing a BE in
@@ -23,8 +23,8 @@ function About() {
               building full-stack web applications and tackling complex
               challenges. Outside of coding, I love dancing and watching movies.
             </p>
-            <div className=" md:px-4">
-              <table className="flex flex-col gap-y-4 ">
+            <div className="flex justify-center text-sm md:px-4 md:text-xl">
+              <table className="flex flex-col gap-y-4">
                 <tbody>
                   <tr>
                     <td className="md:pr-12 text-[#c1bdbd]">Name</td>
@@ -61,7 +61,7 @@ function About() {
                   <tr>
                     <td className="md:pr-12 text-[#c1bdbd]">Hobbies</td>
                     <td className="md:pr-4">:</td>
-                    <td> Dacing, Watching movies etc.</td>
+                    <td> Dancing, Watching movies etc.</td>
                   </tr>
                 </tbody>
               </table>

@@ -1,25 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"); */
+
 body {
-  @apply font-serif  bg-[rgb(7,35,60)];
+  font-family: "Roboto Slab", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #111111;
 }
 
-.noDisplay {
-  @apply hidden;
-}
-.yesDisplay {
-  @apply flex bg-[rgb(4,30,53)] w-[100%] flex-col absolute top-16 left-0 pl-4 lg:hidden lg:top-24;
-}
-.yesDisplay li {
-  @apply m-2;
-}
 .name-hover:hover .text-4xl {
   color: white;
-  font-size: 3xl;
 }
 
 .name-hover:hover span:not(.text-4xl) {
