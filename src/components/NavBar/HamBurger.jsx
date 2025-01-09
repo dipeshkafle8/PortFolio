@@ -11,7 +11,7 @@ function HamBurger() {
         </button>
         {isHamOpen ? (
           <div className="absolute left-0 top-14 bg-[#1B1B1B] w-full p-2">
-            <ul className="flex flex-col gap-y-2 text-[#b7b5b5] ">
+            <ul className="flex flex-col gap-y-2 text-[#eae9e9] ">
               <li>
                 <Link
                   to="/"

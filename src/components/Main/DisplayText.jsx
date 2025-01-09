@@ -3,8 +3,8 @@ function DisplayText() {
   return (
     <>
       <div className="designed-text flex flex-col items-center md:block">
-        <h6 className="name-inSmall  text-center lg:text-left m-5">
-          <span className="text-[#ffffffc4] bg-[#3d3c3c] tracking-wide p-2 lg:text-[1rem]">
+        <h6 className="name-inSmall  text-center lg:text-left my-5 mx-4">
+          <span className="text-[#ffffffd1] bg-[#0e3e1f] tracking-wide p-2 lg:text-[1rem]">
             DIPESH KAFLE
           </span>
         </h6>
@@ -18,7 +18,7 @@ function DisplayText() {
         {/* animated text */}
         <h1
           className="overflow-hidden block
-        whitespace-nowrap text-[rgb(7,136,255)] font-bold text-4xl text-center m-4 md:text-5xl  lg:text-[3.5rem] lg:text-left  xl:text-7xl"
+        whitespace-nowrap text-[rgb(53,159,100)] font-bold text-4xl text-center m-4 md:text-5xl  lg:text-[3.5rem] lg:text-left  xl:text-7xl"
         >
           <Typewriter
             options={{

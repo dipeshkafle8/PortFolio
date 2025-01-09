@@ -1,70 +1,36 @@
 import aboutpic from "../assets/aboutpic.jpg";
+import ListDetails from "./ListDetails";
 function About() {
   return (
     <>
-      <div className=" bg-[#1B1B1B]  rounded-lg my-4 md:mx-2 lg:mt-44 xl:mt-32">
-        <div className="flex flex-col gap-y-4 items-center text-white  lg:flex-row lg:justify-between lg:gap-x-8 ">
-          <div className=" border-4  border-[rgb(14,49,50)] sm:w-[16rem] rounded-3xl overflow-hidden mt-4 lg:ml-12 lg:mt-[-2rem] lg:w-[20rem]">
+      <div className=" flex justify-center   my-4 md:mx-2 lg:mt-44 xl:mt-32">
+        <div className="flex flex-col w-[90%] rounded-lg bg-[#1B1B1B] gap-y-4 items-center text-white  lg:flex-row lg:justify-between lg:gap-x-8 ">
+          <div className=" border-2  border-[rgb(32,123,90)] sm:w-[16rem] rounded-3xl overflow-hidden mt-4 lg:ml-12 lg:mt-[-2rem] lg:w-[24rem]">
             <img
               src={aboutpic}
-              className=" w-[14rem] sm:w-[18rem] lg:w-[20rem]"
+              className=" w-[16rem] sm:w-[18rem] lg:w-[24rem]"
               alt="picture_speaking"
             />
           </div>
-          <div className=" flex flex-col items-center text-xl w-[100%] m-2 ml-14  gap-y-4 lg:items-start lg:w-[60%] lg:mr-12 lg:mt-4">
+          <div className="flex flex-col justify-center items-center text-xl w-full    gap-y-4 md:m-2 md:ml-14 lg:items-start lg:w-[60%] lg:mr-12 lg:mt-4">
             <span className="text-2xl md:text-5xl font-bold  mr-6 lg:text-left">
               About Me!
             </span>
-            <p className=" text-lg mr-4 text-justify pr-4 text-[#c1bdbd] md:text-xl">
+            <p className="text-lg px-2 md:p-0 md:mr-4 text-justify  text-[#c1bdbd]  md:mt-2 md:text-[1.2rem]">
               My name is{" "}
-              <span className="text-white font-bold">Dipesh Kafle</span>, a MERN
-              stack developer and problem-solver currently pursuing a BE in
-              Computer Science at Chitkara University, Himachal Pradesh. I enjoy
-              building full-stack web applications and tackling complex
+              <span className="text-[rgb(53,212,153)] font-semibold">
+                Dipesh Kafle
+              </span>
+              , a MERN stack developer and problem-solver currently pursuing a
+              BE in Computer Science at Chitkara University, Himachal Pradesh. I
+              enjoy building full-stack web applications and tackling complex
               challenges. Outside of coding, I love dancing and watching movies.
             </p>
-            <div className="flex justify-center text-sm md:px-4 md:text-xl">
-              <table className="flex flex-col gap-y-4">
-                <tbody>
-                  <tr>
-                    <td className="md:pr-12 text-[#c1bdbd]">Name</td>
-                    <td className="md:pr-4">:</td>
-                    <td>Dipesh Kafle</td>
-                  </tr>
-                  <tr>
-                    <td className="pl-0 md:pr-12 text-[#c1bdbd]">
-                      Nationality
-                    </td>
-                    <td className="md:pr-4">:</td>
-                    <td>Nepali</td>
-                  </tr>
-                  <tr>
-                    <td className="md:pr-12 text-[#c1bdbd]">Phone No</td>
-                    <td className="md:pr-4">:</td>
-                    <td>(+91) 9317128221</td>
-                  </tr>
-                  <tr>
-                    <td className="md:pr-12 text-[#c1bdbd]">Email</td>
-                    <td className="md:pr-4">:</td>
-                    <td>abc@gmail.com</td>
-                  </tr>
-                  <tr>
-                    <td className="md:pr-12 text-[#c1bdbd]">Language</td>
-                    <td className="md:pr-4">:</td>
-                    <td> Nepali, English , Hindi</td>
-                  </tr>
-                  <tr>
-                    <td className="md:pr-12 text-[#c1bdbd]">Freelance</td>
-                    <td className="md:pr-8">:</td>
-                    <td>Available</td>
-                  </tr>
-                  <tr>
-                    <td className="md:pr-12 text-[#c1bdbd]">Hobbies</td>
-                    <td className="md:pr-4">:</td>
-                    <td> Dancing, Watching movies etc.</td>
-                  </tr>
-                </tbody>
-              </table>
+            <ListDetails />
+            <div className="flex w-full  justify-center mb-4">
+              <button className=" text-lg px-6 py-1 border-2 border-[rgba(5,150,104,0.95)]  hover:bg-[rgb(5,150,104)] rounded-full transition duration-200 ease-in-out md:px-8 md:py-2 md:text-xl ">
+                Download CV
+              </button>
             </div>
           </div>
         </div>

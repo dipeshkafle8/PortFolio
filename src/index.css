@@ -10,11 +10,3 @@ body {
   padding: 0;
   background-color: #111111;
 }
-
-.name-hover:hover .text-4xl {
-  color: white;
-}
-
-.name-hover:hover span:not(.text-4xl) {
-  color: rgb(7, 136, 255);
-}

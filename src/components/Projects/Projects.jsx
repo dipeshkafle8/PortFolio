@@ -51,7 +51,7 @@ function Projects() {
                     </div>
                     <div className="absolute top-2 right-2">
                       <button onClick={() => handleOpenModal(project)}>
-                        <Info className="text-[rgb(101,213,236)] hover:text-white" />
+                        <Info className="text-[rgb(53,212,153)] hover:text-white" />
                       </button>
                     </div>
                     <h3 className="text-xl font-bold  mt-4 mb-2">

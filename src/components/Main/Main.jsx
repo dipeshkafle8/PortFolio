@@ -12,7 +12,7 @@ function Main() {
           <DisplayIconsAndText />
         </div>
 
-        <div className="moving-border border-[8px] border-double border-[rgb(60,134,203)] w-[20rem] rounded-full overflow-hidden lg:w-[23rem] lg:mr-[3%] xl:w-[28rem] xl:mr-[5%] ">
+        <div className="moving-border border-[8px] border-double border-[rgb(39,152,107)] w-[20rem] rounded-full overflow-hidden lg:w-[23rem] lg:mr-[3%] xl:w-[28rem] xl:mr-[5%] ">
           <img src={profile} className=" bg-white " alt="Profile" />
         </div>
       </div>
