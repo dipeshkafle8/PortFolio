@@ -11,7 +11,7 @@ const profileInfo = [
 const ListDetails = () => {
   return (
     <>
-      <div className="flex p-3 text-base  flex-wrap md:pl-0 md:py-4 md:flex-col md:h-56 gap-x-12 gap-y-6 md:text-[1.18rem] ">
+      <div className="flex p-3 text-base  flex-wrap md:pl-0 md:py-4 md:flex-col md:h-56 gap-x-12 gap-y-5 md:text-[1.18rem] ">
         {profileInfo.map(({ label, value }) => {
           return (
             <div key={label} className="flex">

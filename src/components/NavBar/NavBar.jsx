@@ -11,11 +11,7 @@ function NavBar() {
         <div className="ml-4  h-20 flex  justify-center items-center lg:ml-[4rem]">
           <Link to="/">
             <span className="text-2xl md:text-3xl tracking-widest font-semibold ">
-              Dipesh{" "}
-              <Laptop
-                className="inline-block text-[rgb(180,108,231)]"
-                size={42}
-              />
+              Dipesh K.
             </span>
           </Link>
         </div>

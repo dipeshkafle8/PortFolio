@@ -5,10 +5,10 @@ function About() {
     <>
       <div className=" flex justify-center   my-4 md:mx-2 lg:mt-44 xl:mt-32">
         <div className="flex flex-col w-[90%] rounded-lg bg-[#1B1B1B] gap-y-4 items-center text-white  lg:flex-row lg:justify-between lg:gap-x-8 ">
-          <div className=" border-2  border-[rgb(32,123,90)] sm:w-[16rem] rounded-3xl overflow-hidden mt-4 lg:ml-12 lg:mt-[-2rem] lg:w-[24rem]">
+          <div className=" border-2  border-[rgb(32,123,90)] sm:w-[16rem] rounded-3xl overflow-hidden mt-4 lg:ml-12 lg:mt-[-2rem] lg:w-[21rem]">
             <img
               src={aboutpic}
-              className=" w-[16rem] sm:w-[18rem] lg:w-[24rem]"
+              className=" w-[16rem] sm:w-[18rem] lg:w-[21rem]"
               alt="picture_speaking"
             />
           </div>
