@@ -122,7 +122,7 @@ function Contact() {
             <div className="flex justify-center mb-0">
               <button
                 type="submit"
-                className="bg-[rgb(2,179,210)] px-8  py-2 text-white rounded-sm  hover:bg-[rgb(4,111,129)]"
+                className="bg-[rgb(48,176,116)] px-8  py-2 text-white rounded-sm  hover:bg-[rgb(36,128,85)]"
               >
                 Send
               </button>
