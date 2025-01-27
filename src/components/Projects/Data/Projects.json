@@ -1,74 +1,28 @@
 [
   {
     "id": 1,
-    "title": "Portfolio Website",
-    "short_desc": "A personal portfolio website to showcase my projects and skills.",
-    "desc": "This is a personal portfolio website designed to showcase my projects, skills, and experiences. It includes sections for my bio, projects, and contact information.",
-    "technology": ["React", "Tailwind CSS", "JavaScript"],
-    "image": "StudentSathi"
+    "title": "ShopNow",
+    "short_desc": "E-commerce website",
+    "desc": "The e-commerce website features secure authentication with JWT, password hashing using bcrypt.js, and an Add to Cart option for both logged-in and guest users. It includes a detailed product page with similar product suggestions and a debouncing search bar for efficient product discovery.",
+    "technology": [
+      "React JS",
+      "Express Js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "url": "https://shopnow-frontend-e.vercel.app/",
+    "githubURL": "https://github.com/dipeshkafle8/Ecommerce",
+    "image": "ShopNow"
   },
   {
     "id": 2,
-    "title": "E-commerce Platform",
-    "short_desc": "An online platform for buying and selling products.",
-    "desc": "This is a personal portfolio website designed to showcase my projects, skills, and experiences. It includes sections for my bio, projects, and contact information.",
-    "technology": ["Node.js", "Express", "MongoDB", "React"],
-    "image": "StudentSathi"
-  },
-  {
-    "id": 3,
-    "title": "Chat Application",
-    "short_desc": "A real-time chat application with user authentication.",
-    "technology": ["Socket.io", "Node.js", "Express", "React"],
-    "image": "StudentSathi"
-  },
-  {
-    "id": 4,
-    "title": "Blog Website",
-    "short_desc": "A blogging platform where users can create and share posts.",
-    "technology": ["Gatsby", "GraphQL", "Markdown"],
-    "image": "StudentSathi"
-  },
-  {
-    "id": 5,
-    "title": "Task Manager",
-    "short_desc": "A task management application to track and organize tasks.",
-    "technology": ["Vue.js", "Vuex", "Firebase"],
-    "image": "StudentSathi"
-  },
-  {
-    "id": 6,
-    "title": "Weather App",
-    "short_desc": "A weather forecasting application using a public API.",
-    "technology": ["React", "OpenWeatherMap API", "CSS"],
-    "image": "StudentSathi"
-  },
-  {
-    "id": 7,
-    "title": "Expense Tracker",
-    "short_desc": "An application to track and manage personal expenses.",
-    "technology": ["Angular", "TypeScript", "Firebase"],
-    "image": "StudentSathi"
-  },
-  {
-    "id": 8,
-    "title": "Recipe App",
-    "short_desc": "A recipe application where users can find and share recipes.",
-    "technology": ["React Native", "Redux", "Firebase"],
-    "image": "StudentSathi"
-  },
-  {
-    "id": 9,
-    "title": "Fitness Tracker",
-    "short_desc": "An application to track fitness activities and goals.",
-    "technology": ["Flutter", "Dart", "Firebase"],
-    "image": "StudentSathi"
-  },
-  {
-    "id": 10,
-    "title": "Online Learning Platform",
-    "short_desc": "A platform for online courses and learning resources.",
-    "technology": ["Django", "React", "PostgreSQL"],
+    "title": "StudentSathi",
+    "short_desc": "College finding website",
+    "desc": "The college-finding website allows users to explore courses with detailed descriptions and related fields. Users can filter colleges based on location, preferred courses, and rankings. It features secure login/signup using JWT, with protected routes for accessing filtering options and career details, ensuring only logged-in users can explore advanced features.",
+    "technology": ["React JS", "Express Js", "MongoDB", "Tailwind CSS"],
+    "url": "https://student-sathi.vercel.app/",
+    "githubURL": "https://github.com/dipeshkafle8/StudentSathi",
     "image": "StudentSathi"
   }
 ]

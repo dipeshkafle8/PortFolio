@@ -1,5 +1,6 @@
 import ProjectsData from "./Data/Projects.json";
 import StudentSathi from "./assets/StudentSathi.png";
+import ShopNow from "./assets/ShopNow.png";
 import { useRef, useState } from "react";
 import DesignModal from "./DesignModal";
 import { motion } from "framer-motion";
@@ -7,6 +8,7 @@ import { Info, Github, ExternalLink } from "lucide-react";
 
 const images = {
   StudentSathi: StudentSathi,
+  ShopNow: ShopNow,
 };
 
 function Projects() {
@@ -34,13 +36,13 @@ function Projects() {
         >
           <div
             ref={projectContainerRef}
-            className="flex flex-wrap flex-1 justify-evenly"
+            className="flex flex-wrap flex-1 justify-evenly gap-x-4"
           >
             {ProjectsData.length !== 0
               ? ProjectsData.map((project) => (
                   <div
                     key={project.id}
-                    className="relative bg-[#1B1B1B] m-4 p-4 rounded-lg md:w-[26rem] transition-shadow duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+                    className="relative overflow-hidden bg-[#1B1B1B] m-4 p-4 rounded-lg md:w-[26rem] transition-shadow duration-300 ease-in-out hover:scale-105 "
                   >
                     <div className="w-full relative mx-auto h-auto overflow-hidden rounded-lg hover:cursor-pointer">
                       <img
@@ -60,7 +62,7 @@ function Projects() {
                     <p className="text-[#a9a8a8]">{project.short_desc}</p>
                     <div className="flex justify-between  mt-4">
                       <a
-                        href="#"
+                        href={project.url}
                         target="_blank"
                         className="px-4 py-2 bg-[#353535] rounded-md hover:bg-[#020101]"
                       >
@@ -68,7 +70,7 @@ function Projects() {
                         Demo
                       </a>
                       <a
-                        href="#"
+                        href={project.githubURL}
                         target="_blank"
                         className="px-4 py-2 bg-[#353535] rounded-md hover:bg-[#020101]"
                       >
@@ -82,7 +84,11 @@ function Projects() {
         </motion.div>
       </div>
       {showModal ? (
-        <DesignModal handleClose={handleCloseModal} project={selectedProject} />
+        <DesignModal
+          handleClose={handleCloseModal}
+          project={selectedProject}
+          images={images}
+        />
       ) : null}
     </>
   );

@@ -1,12 +1,8 @@
 /* eslint-disable react/prop-types */
 import Modal from "../../Modal";
 import { X } from "lucide-react";
-import StudentSathi from "./assets/StudentSathi.png";
-const images = {
-  StudentSathi: StudentSathi,
-};
 
-const DesignModal = ({ handleClose, project }) => {
+const DesignModal = ({ handleClose, project, images }) => {
   return (
     <>
       <Modal>
@@ -26,29 +22,21 @@ const DesignModal = ({ handleClose, project }) => {
                   alt={project.title}
                 />
               </div>
-              <div className="flex flex-col w-[25rem] ">
-                <h2 className="sm:text-2xl font-bold mb-4 border-b-2 w-[100%] text-left">
+              <div className="flex flex-col w-[15rem] md:w-[25rem] ">
+                <h2 className="text-xl sm:text-2xl font-bold mb-4 border-b-2 w-[100%] text-left">
                   {project.title}
                 </h2>
-                <p className="sm:text-lg text-left w-[60%] sm:w-[100%] text-[rgb(135,138,140)]">
+                <p className="sm:text-lg text-left sm:w-[100%]  text-[rgb(135,138,140)]">
                   {project.desc}
                 </p>
-                <table className="text-[0.80rem] w-[16rem]  md:text-[16px] mt-2 sm:mt-12 text-left sm:w-full ">
-                  <tr>
-                    <td>Type:</td>
-                    <td className="text-[rgb(135,138,140)]">Website</td>
-                  </tr>
-                  <tr>
-                    <td>Languages:</td>
-                    <td className="text-[rgb(135,138,140)]">
-                      {project.technology.join(",")}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>URL:</td>
-                    <td className="text-[rgb(135,138,140)]">www.abc.com</td>
-                  </tr>
-                </table>
+                <div className="flex flex-col mt-2 md:mt-6 items-start">
+                  <span className="w-full text-left font-semibold md:text-[1.20rem]">
+                    Technologies:
+                  </span>
+                  <span className="w-full text-left text-[rgb(135,138,140)]">
+                    {project.technology.join(",")}
+                  </span>
+                </div>
               </div>
             </div>
           </div>

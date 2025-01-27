@@ -19,15 +19,15 @@ function DisplayIconsAndText() {
         </Link>
       </div>
       <div className=" flex justify-center gap-x-4 md:ml-8 md:justify-start">
-        <Link to="/">
+        <a href="https://github.com/dipeshkafle8" target="_blank">
           <Github className="text-white hover:text-green-200" />
-        </Link>
-        <Link to="/" className="text-white hover:text-green-200">
-          <Linkedin />
-        </Link>
-        <Link to="/" className="text-white hover:text-green-200">
-          <Facebook />
-        </Link>
+        </a>
+        <a href="https://www.linkedin.com/in/dipeshkafle/" target="_blank">
+          <Linkedin className="text-white hover:text-green-200" />
+        </a>
+        <a href="https://www.facebook.com/dipesh.tiger.3/" target="_blank">
+          <Facebook className="text-white hover:text-green-200" />
+        </a>
       </div>
     </>
   );
