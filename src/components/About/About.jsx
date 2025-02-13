@@ -28,9 +28,13 @@ function About() {
             </p>
             <ListDetails />
             <div className="flex w-full  justify-center mb-4">
-              <button className=" text-lg px-6 py-1 border-2 border-[rgba(5,150,104,0.95)]  hover:bg-[rgb(5,150,104)] rounded-full transition duration-200 ease-in-out md:px-8 md:py-2 md:text-xl ">
-                Download CV
-              </button>
+              <a
+                href="https://drive.google.com/file/d/1rVQdDpX7LlDnz8b1yupxWwd8-1E0GDgP/view?usp=drive_link"
+                target="_blank"
+                className=" text-lg px-6 py-1 border-2 border-[rgba(5,150,104,0.95)]  hover:bg-[rgb(5,150,104)] rounded-full transition duration-200 ease-in-out md:px-8 md:py-2 md:text-xl "
+              >
+                View Resume
+              </a>
             </div>
           </div>
         </div>
